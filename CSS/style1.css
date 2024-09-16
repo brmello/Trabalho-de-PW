@@ -1,0 +1,76 @@
+
+body {
+    background-image: url(./marmorizado.avif);
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 180px;
+    height: 100px;
+}
+
+.categorias {
+    background-color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h3, .produto p {
+    margin: 5px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comprar {
+    background-color:rgb(21, 0, 13);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 4px 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.comprar:hover {
+    background-color: rgb(61, 0, 40);
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./marmorizado.avif);
+}
+
+.login{
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    border-color: rgb(232, 232, 232);
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+input{
+    align-items: center;
+    justify-items: center;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 180px;
+    height: 100px;
+
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(21, 0, 13);
+    color: white;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color: rgb(61, 0, 40);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color:rgb(0, 0, 0);
+    font-size: x-large;
+}
